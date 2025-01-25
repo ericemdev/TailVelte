@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contain {
+    @apply container mx-auto px-4 flex flex-col items-center justify-center;
+}
+
+.card {
+    @apply bg-red-100 rounded shadow m-4 p-4;
+}
+
+.h-scroll {
+    @apply flex flex-nowrap;
+}
+
+.btn {
+    @apply px-6 py-2 text-white font-medium rounded;
+  }
+ .primary-btn {
+    @apply bg-primary text-tertiary rounded-md hover:bg-fade hover:text-white px-6 py-2;
+  }
+
+ .secondary-btn {
+    @apply p-2 border rounded-md hover:bg-fade;
+  }
+
+
+.card {
+    @apply bg-white shadow rounded-lg overflow-hidden;
+}
+
+.card-title {
+    @apply font-semibold text-lg;
+}
+
+.card-img {
+    @apply w-full h-48 object-cover;
+}
+
+.card-body {
+    @apply p-4;
+}
+
+
