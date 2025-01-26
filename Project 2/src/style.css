@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contain {
+    @apply container mx-auto px-4 flex flex-col items-center justify-center;
+}
+
+.card {
+    @apply bg-red-100 rounded shadow m-4 p-4;
+}
+
+.h-scroll {
+    @apply flex flex-nowrap;
+}
+
+.fade-text{
+    @apply text-sm mb-6 text-secondary
+}
+
+.form-input{
+    @apply w-full border rounded-lg p-2 text-sm focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2;
+}
+
+.radio-input {
+    @apply text-secondary;
+}
+
+.item-input {
+    @apply border rounded-lg p-2 text-sm focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2;
+}
+
+.cancel-btn{
+    @apply border px-4 py-2 text-sm bg-gray-200 rounded-lg;
+}
+
+.send-btn{
+    @apply bg-secondary px-8 py-2 text-sm  text-white rounded-lg;
+}
+
+.form-label {
+    @apply block text-sm font-medium mb-1;
+}
