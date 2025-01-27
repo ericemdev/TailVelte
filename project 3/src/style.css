@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card {
+    @apply bg-white rounded-lg shadow p-6;
+}
+
+.card-heading {
+    @apply text-lg font-semibold;
+}
+
+.card-subtext {
+    @apply text-sm text-gray-500 mt-2;
+}
+
+.flex-row-center {
+    @apply flex justify-between items-center;
+}
+
+.flex-column-space {
+    @apply flex flex-col md:flex-row gap-6;
+}
+
+.profile-images {
+    @apply w-10 h-10 rounded-full;
+}
+
+.price-details {
+    @apply text-gray-600;
+}
+
+.status-dot {
+    @apply w-2 h-2 rounded-full;
+}
+
+.action-button {
+    @apply px-4 py-2 bg-indigo-500 text-white rounded;
+}
